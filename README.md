@@ -10,16 +10,19 @@ In your response, make sure to compare the time complexities for insertion, remo
 
 ### Response 1
 
+XAVIER
 
 ## Prompt 2
 
-Imagine you are developing a web browser's "back" button functionality. When a user clicks "back," the browser should navigate to the previously visited webpage. 
+Imagine you are developing a web browser's "back" button functionality. When a user clicks "back," the browser should navigate to the previously visited webpage.
 
-Would you use a stack or a queue to implement this functionality? 
+Would you use a stack or a queue to implement this functionality?
 
 In your response, explain what a Stack/Queue is and why it would be best for this use case. Make sure that your response includes the terms LIFO or FIFO.
 
 ### Response 2
+
+XAVIER
 
 ## Prompt 3
 
@@ -27,11 +30,12 @@ What is an Abstract Data Type and why are they worth learning about?
 
 ### Response 3
 
+AUTUMN
+
 ## Prompt 4
 
-A few classic problems involving a stack are the `isBalanced` and `isPalindrome` functions. Choose one of these functions and provide a solution to it along with a brief lesson explaining how it works. 
+A few classic problems involving a stack are the `isBalanced` and `isPalindrome` functions. Choose one of these functions and provide a solution to it along with a brief lesson explaining how it works.
 
 ### Response 4
 
-
-
+AUTUMN
