@@ -30,7 +30,9 @@ What is an Abstract Data Type and why are they worth learning about?
 
 ### Response 3
 
-AUTUMN
+An **Abstract Data Type (ADT)** is a _theoretical model_ that defines a set of operations (methods) and behaviors for a **data structure**. An abstract data type will tell you what operations can be performed, but it will not tell you how they are configured or built under the hood. The implementations and configurations being done are **hidden away** in the _data structure definition_; they are **abstracted away** from us.
+
+ADTs create **cleaner, efficient, and easier to understand** code. ADTs are repeatable, predictable, and consistent, which is why they are worth learning about. You can define an ADT and then use it an _infinite number_ of times, overall saving time and energy by not having to repeatedly code tedious processes.
 
 ## Prompt 4
 
