@@ -49,3 +49,27 @@ ADTs create **cleaner, efficient, and easier to understand** code. ADTs are repe
 A few classic problems involving a stack are the `isBalanced` and `isPalindrome` functions. Choose one of these functions and provide a solution to it along with a brief lesson explaining how it works.
 
 ### Response 4
+
+The `isPalindrome()` function is a function that tests whether or not an input string is a palindrome, meaning it is the same forward and backward, like the word _**radar**_ or _**02022020**_.
+
+Here is a code example of how we can use a `Stack` to solve this problem:
+
+```js
+const isPalindrome = (inputString) => {
+  const palindromeStack = new Stack();
+  if (inputString.length === 1) return true;
+  // let length = inputString.length;
+  // let middle = length / 2;
+  for (let i = 0; i < inputString.length; i++) {
+    palindromeStack.push(inputString[i]);
+  }
+  for (let i = 0; i < inputString.length; i++) {
+    if (palindromeStack.pop() !== inputString[i]) {
+      return false;
+    }
+  }
+  return true;
+};
+```
+
+In this code snippet, we start by pushing every character of the input string into a stack. Then, we compare each popped element from our stack to every item in our input string by checking in a repeated loop. If the check fails at any point, the function will return `false`. Once we reach the **center/end** of the stack, the loop will finish and the function will return `true`.
